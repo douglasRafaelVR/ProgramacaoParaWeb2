@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            *{
+                padding:0;
+                margin:0;
+            }
+            body {
+                display: flex;
+                flex-flow: column;
+                justify-content: center;
+                
+                height: 100vh;
+                width: 100vw;
+                
+                text-align: center;
+                font-size: 50px;
+                font-weight: bold;
+            }
+        </style>
+    </head>
+    <body>
+        <div>Aguarde</div>
+        <script>
+            window.onload = iniciar;
+            setInterval(addPontos,0.5*1000);
+            function iniciar(){
+                setInterval(addPontos(),1*1000);
+                window.location.href = "./home.jsp";
+            }
+            function addPontos(){
+                var div = document.getElementsByTagName("div")[0];
+                div.innerHTML = div.firstChild.nodeValue+" . ";
+            }
+        </script>
+    </body>
+</html>

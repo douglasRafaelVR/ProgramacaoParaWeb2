@@ -1,0 +1,214 @@
+*{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-transform: none;
+    text-decoration: none;
+    color: black;
+    background-color: rgba(0,0,0,0);
+}
+header{
+    display: flex;
+    flex-flow: row-reverse wrap;
+    justify-content: center;
+    
+    width: 100vw;
+    height: 15vh;
+    background-color: rgb(255,255,255);
+    
+    background-image: url("../img/sistemasParaInternet5.png");/*informa o caminho da imagem*/
+    background-repeat: no-repeat; /*Informa para não repetir a imagem de fundo*/
+    background-position: 0% 0%;
+    background-size: 50% 50%;
+    color: black;
+}
+    header div{
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        
+        height: 100%;
+    }
+#menu {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    
+    z-index: 50;
+    width: 100vw;
+    height: 10vh;
+    background-color: rgba(0,255,0,1);
+}
+    .lista1 {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+
+        width: 60vw;
+        height: 10vh;
+    }
+    .lista1 li,.lista1 li a{
+        color: white;
+    }
+    .lista1 li:hover{
+        background-color: rgba(255,255,255,1);
+        
+        color: rgba(255,255,255,1);
+    }
+    .lista1 li:hover a{
+        color: rgba(255,255,255,1);
+    }
+    .lista1 li:hover .botao{
+        color: rgba(0,255,0,1);
+    }
+        .lista2{
+            display: flex;
+            flex-flow: column wrap;
+            justify-content: space-between;
+
+            width: 10vw;
+            height: auto;
+        }
+            .lista2 a.botao {
+                display: flex;
+                flex-flow: column wrap;
+                justify-content: center;
+                
+                width: 100%;
+                height: 10vh;
+                
+                color: white;
+                font-size: 20px;
+                text-decoration: none;
+                text-align: center;
+            }
+            lista2:hover .botao {
+                color: rgba(0,255,0,1);
+            }
+                .lista3 {
+                    display: flex;
+                    flex-flow: column nowrap;
+                    justify-content: space-between;
+                    
+                    z-index: 11;
+                    background-color: rgba(0,255,0,1);
+                }
+                .lista3 li{
+                    display: flex;
+                    flex-flow: column nowrap;
+                    justify-content: center;
+
+                    height: 10vh;
+
+                    text-align: center;
+                    color: rgba(255,255,255,1);
+                    font-size: 20px;
+                }
+                .lista3 .subopcao:hover a{
+                    color: rgba(0,255,0,1);
+                }
+article{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+}
+article .form-div {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+.tb_form{
+    width: 60vw;
+    
+    font-size: 20px;
+}
+    .tb_form caption{
+        background-color: #0F0;
+        padding: 10px;
+        
+        font-size: 30px;
+        height: 7vh;
+        font-weight: bold;
+        color: #FFF; 
+    }
+    .tb_form th{
+        height: 5vh;
+    }
+        .tb_form th input{
+            height: 4vh;
+            width: 30vw;
+            background-color: rgba(0,0,0,0);
+            border-top: 0;
+            border-left: 0;
+            border-right: 0;
+            border-bottom: solid black 0px;
+            
+            text-align: center;
+        }
+        #btn_salvar{
+            padding: 0;
+            margin: 0;
+            width: 60vw;
+            background-color: #F00;
+            
+            color: white;
+            font-size: 20px;
+        }
+        #btn_salvar:hover{
+            background-color: #F00;
+            background-image:linear-gradient(180deg,rgba(255,0,0,1),rgba(0,0,0,0.5));
+
+            
+            font-weight: bold;
+        }
+.tb_lista{
+    width: 60vw;
+    
+    font-size: 20px;
+}
+    .tb_lista caption{
+        background-color: #0B0;
+        padding: 10px;
+        
+        font-size: 30px;
+        height: 7vh;
+        font-weight: bold;
+        color: #FFF; 
+    }
+    .tb_lista th,.tb_lista td{
+        height: 5vh;
+        
+        text-align: center;
+    }
+    .tb_lista th{
+        background-color: #0F0;
+        
+        color: white;
+    }
+.erros{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    
+    background-color: red;
+    border: 2px solid red;
+}
+footer {
+    
+}
+.centralizacao{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+}
+*{
+    border: 0px solid black;
+}
+
+select {
+    width: 20vw;
+    background-color: red;
+}

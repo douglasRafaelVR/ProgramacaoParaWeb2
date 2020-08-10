@@ -1,0 +1,11 @@
+com\mycompany\douglas_rafael_atividade_aula13\model\dao\ClienteDAO.class
+com\mycompany\douglas_rafael_atividade_aula13\model\entity\Locacao.class
+com\mycompany\douglas_rafael_atividade_aula13\controller\ClientesController.class
+com\mycompany\douglas_rafael_atividade_aula13\model\dao\VeiculoDAO.class
+com\mycompany\douglas_rafael_atividade_aula13\model\dao\JpaUtil.class
+com\mycompany\douglas_rafael_atividade_aula13\model\entity\principal.class
+com\mycompany\douglas_rafael_atividade_aula13\controller\VeiculosController.class
+com\mycompany\douglas_rafael_atividade_aula13\model\entity\Cliente.class
+com\mycompany\douglas_rafael_atividade_aula13\controller\LocacaosController.class
+com\mycompany\douglas_rafael_atividade_aula13\model\dao\LocacaoDAO.class
+com\mycompany\douglas_rafael_atividade_aula13\model\entity\Veiculo.class
